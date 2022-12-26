@@ -1,2 +1,8 @@
-.address{color:#434455;}
-.address:hover { color:#4D5AE5;}
+body {font-family: 'Roboto','Raleway', sans-serif;background-color: #FFFFFF;}
+.header-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;} 
+.header-item {font-family:'Roboto';font-weight: 500 ;color: #2E2F42;text-decoration: none;}
+.header-navigation {font-family: 'Roboto';font-weight: 400;color: #434455;}
+.link {text-decoration: none;}
+.title{background-color: #2E2F42;}
+.title-text{font-family: 'Roboto';font-weight: 700;color: #FFFFFF; line-height: 1.07;}
+.btn{background-color: #4D5AE5; font-family: 'Roboto';font-weight: 500; color: #FFFFFF;}
