@@ -1,18 +1,29 @@
-body {font-family: 'Roboto','Raleway', sans-serif;background-color: #FFFFFF;}
-.header-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;} 
+body {font-family: 'Roboto', sans-serif;}
+:root{background-color: #FFFFFF;}
+.header-logo {font-family: 'Ralevay', sans-serif;font-weight: 800;font-size:18px;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;} 
+.header-logo:hover{ text-decoration:underline; text-decoration-color: #4D5AE5;}
 .header-list{list-style-type: none}
-.header-item:hover {;color: #404BBF;text-decoration: underline;}
+.header-item:hover {color: #404BBF;text-decoration: underline;}
 .header-item:focus {color: #404BBF;text-decoration: underline;}
-.header-item {font-family:'Roboto';font-weight: 500 ;color: #2E2F42;text-decoration: none;line-height: 1.5;}
-.header-navigation {font-family: 'Roboto';font-weight: 400;color: #434455;line-height: 1.5;}
+.header-item {font-family:inherit;font-weight: 500 ;color: #2E2F42;text-decoration: none;line-height: 1.5;}
+.header-navigation {font-family: inherit;font-weight: 400;color: #434455;line-height: 1.5;}
 .header-list{list-style-type: none}
 .link {text-decoration: none;}
 .title{background-color: #2E2F42;}
-.title-text{font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-line-height: 1.07;
-color: #FFFFFF}
-.btn{background-color: #4D5AE5; font-family: 'Roboto';font-weight: 500; color: #FFFFFF;}
+.title-text{font-family: inherit;font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
+.btn{background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;}
 /*sections*/
+.visually-hiden{ position: absolute; white-space:nowrap;width: 1px; height: 1px; overflow: hidden; border:0; padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
 .list-list{ list-style-type: none}
+.class.charecter{font-weight: 500;font-size: 20px; line-height: 1.2;color: #2E2F42;}
+p{ font-size: 16px;font-weight: 400;line-height: 1.5; color: #2E2F42;}
+.hero{font-weight: 700;font-weight: 700;
+font-size: 36px;line-height:0.02;}
+.hero-list { background-color: #F4F4FD;}
+.hero-box{background-color: #FFFFFF;}
+.footer {background: #2E2F42;
+}
+.footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color: #F4F4FD; line-height: 1.16;}
+.footer-sub{font-family: inherit;font-weight: 400;
+font-size: 16px;
+line-height: 1.5; color: #E7E9FC;}
