@@ -1,8 +1,18 @@
 body {font-family: 'Roboto','Raleway', sans-serif;background-color: #FFFFFF;}
 .header-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;} 
-.header-item {font-family:'Roboto';font-weight: 500 ;color: #2E2F42;text-decoration: none;}
-.header-navigation {font-family: 'Roboto';font-weight: 400;color: #434455;}
+.header-list{list-style-type: none}
+.header-item:hover {;color: #404BBF;text-decoration: underline;}
+.header-item:focus {color: #404BBF;text-decoration: underline;}
+.header-item {font-family:'Roboto';font-weight: 500 ;color: #2E2F42;text-decoration: none;line-height: 1.5;}
+.header-navigation {font-family: 'Roboto';font-weight: 400;color: #434455;line-height: 1.5;}
+.header-list{list-style-type: none}
 .link {text-decoration: none;}
 .title{background-color: #2E2F42;}
-.title-text{font-family: 'Roboto';font-weight: 700;color: #FFFFFF; line-height: 1.07;}
+.title-text{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+line-height: 1.07;
+color: #FFFFFF}
 .btn{background-color: #4D5AE5; font-family: 'Roboto';font-weight: 500; color: #FFFFFF;}
+/*sections*/
+.list-list{ list-style-type: none}
