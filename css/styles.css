@@ -1,5 +1,6 @@
 body {font-family: 'Roboto', sans-serif;}
 :root{background-color: #FFFFFF;}
+a { text-decoration: none;}
 .header-logo {font-family: 'Ralevay', sans-serif;font-weight: 800;font-size:18px;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;} 
 .header-logo:hover{ text-decoration:underline; text-decoration-color: #4D5AE5;}
 .header-list{list-style-type: none}
@@ -8,7 +9,6 @@ body {font-family: 'Roboto', sans-serif;}
 .header-item {font-family:inherit;font-weight: 500 ;color: #2E2F42;text-decoration: none;line-height: 1.5;}
 .header-navigation {font-family: inherit;font-weight: 400;color: #434455;line-height: 1.5;}
 .header-list{list-style-type: none}
-.link {text-decoration: none;}
 .title{background-color: #2E2F42;}
 .title-text{font-family: inherit;font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
 .btn{background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;}
