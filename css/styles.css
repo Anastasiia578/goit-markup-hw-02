@@ -28,7 +28,7 @@ font-size: 36px;line-height:0.02;}
 .hero-box{background-color:var(--background-color);}
 .footer {background: #2E2F42;
 }
-.footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color:var(--footer-text-color)); line-height: 1.16;}
+.footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color:var(--footer-text-color); line-height: 1.16;}
 .footer-sub{font-family: inherit;font-weight: 400;
 font-size: 16px;
 line-height: 1.5; color: #E7E9FC;}
