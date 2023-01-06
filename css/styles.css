@@ -24,6 +24,9 @@ color: var(--text-color);}
 .title{background-color: #2E2F42;}
 .title-text{font-family: inherit;font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
 .btn{background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;}
+.btn:focus{}
+.btn:hover{background-color: var(--hover-focus-color);}
+.btn:active{background-color:var(--btn-active-colore)}
 /*sections*/
 .visually-hiden{ position: absolute; white-space:nowrap;width: 1px; height: 1px; overflow: hidden; border:0; padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
 .list-list{ list-style-type: none}
@@ -33,6 +36,7 @@ p{ font-size: 16px;font-weight: 400;line-height: 1.5; color: #2E2F42;}
 font-size: 36px;line-height:0.02;}
 .hero-list { background-color: #F4F4FD;}
 .hero-box{background-color:var(--background-color);}
+/*footer*/
 .footer {background: #2E2F42;
 }
 .footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color:var(--footer-text-color); line-height: 1.16;}
