@@ -23,7 +23,7 @@ color: var(--text-color);}
 .header-list{list-style-type: none}
 .title{background-color: #2E2F42;}
 .title-text{font-family: inherit;font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
-.btn{background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;cursor: pointer;}
+.btn{cursor: pointer;background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;}
 .btn:hover{background-color: var(--hover-focus-color);}
 .btn:active{background-color:var(--btn-active-colore)}
 /*sections*/
@@ -42,8 +42,9 @@ font-size: 36px;line-height:0.02;}
 .footer-sub{font-family: inherit;
 font-size: 16px;
 line-height: 1.5; color: #E7E9FC;}
-.portfolio-btn{font-family:inherit; font-weight: 500;
+.portfolio-btn{cursor: pointer;
+font-family:inherit; font-weight: 500;
 font-size: 16px;
 line-height:1.5;
-color:#4D5AE5; background-color:var(--btn-color);cursor: pointer;}
+color:#4D5AE5; background-color:var(--btn-color);}
 .portfolio-btn:hover{ background-color: var(--btn-active-colore);color:#FFFFFF;}
