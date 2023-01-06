@@ -1,4 +1,4 @@
-body {font-family: 'Roboto', sans-serif;}
+body {font-family: 'Roboto', sans-serif;font-weight: 400;}
 :root{--background-color: #FFFFFF;
 --text-item-color:#2E2F42;
 --text-color:#434455;
@@ -19,19 +19,18 @@ color: var(--text-color);}
 .header-nav:focus{color: var(--hover-focus-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;line-height: 1.5;}
 .header-item:hover{color: var(--hover-focus-color);text-decoration: underline;}
-.header-navigation {font-family: inherit;font-weight: 400;color: #434455;line-height: 1.5;}
+.header-navigation {font-family: inherit;color: #434455;line-height: 1.5;}
 .header-list{list-style-type: none}
 .title{background-color: #2E2F42;}
 .title-text{font-family: inherit;font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
-.btn{background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;}
-.btn:focus{}
+.btn{background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;cursor: pointer;}
 .btn:hover{background-color: var(--hover-focus-color);}
 .btn:active{background-color:var(--btn-active-colore)}
 /*sections*/
 .visually-hiden{ position: absolute; white-space:nowrap;width: 1px; height: 1px; overflow: hidden; border:0; padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
 .list-list{ list-style-type: none}
 .class.charecter{font-weight: 500;font-size: 20px; line-height: 1.2;color: #2E2F42;}
-p{ font-size: 16px;font-weight: 400;line-height: 1.5; color: #2E2F42;}
+p{ font-size: 16px;line-height: 1.5; color: #2E2F42;}
 .hero{font-weight: 700;font-weight: 700;
 font-size: 36px;line-height:0.02;}
 .hero-list { background-color: #F4F4FD;}
@@ -40,11 +39,11 @@ font-size: 36px;line-height:0.02;}
 .footer {background: #2E2F42;
 }
 .footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color:var(--footer-text-color); line-height: 1.16;}
-.footer-sub{font-family: inherit;font-weight: 400;
+.footer-sub{font-family: inherit;
 font-size: 16px;
 line-height: 1.5; color: #E7E9FC;}
 .portfolio-btn{font-family:inherit; font-weight: 500;
 font-size: 16px;
 line-height:1.5;
-color:#4D5AE5; background-color:var(--btn-color);}
+color:#4D5AE5; background-color:var(--btn-color);cursor: pointer;}
 .portfolio-btn:hover{ background-color: var(--btn-active-colore);color:#FFFFFF;}
