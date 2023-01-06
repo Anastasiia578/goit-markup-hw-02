@@ -1,7 +1,12 @@
 body {font-family: 'Roboto', sans-serif;}
-:root{--background-color: #FFFFFF;}
+:root{--background-color: #FFFFFF;
+--text-color:#434455;
+--footer-text-color:#E7E9FC;}
 a { text-decoration: none;}
-.header-logo {font-family: 'Ralevay', sans-serif;font-weight: 800;font-size:18px;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;} 
+.header-logo {font-family: 'Ralevay';width: 71px;
+height: 24px;font-weight: 800;font-size:18px;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;display: flex;
+align-items: center;
+letter-spacing: 0.03em;} 
 .header-logo:hover{ text-decoration:underline; text-decoration-color: #4D5AE5;}
 .header-list{list-style-type: none}
 .header-item:hover {color: #404BBF;text-decoration: underline;}
@@ -23,7 +28,7 @@ font-size: 36px;line-height:0.02;}
 .hero-box{background-color:var(--background-color);}
 .footer {background: #2E2F42;
 }
-.footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color: #F4F4FD; line-height: 1.16;}
+.footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color:var(--footer-text-color)); line-height: 1.16;}
 .footer-sub{font-family: inherit;font-weight: 400;
 font-size: 16px;
 line-height: 1.5; color: #E7E9FC;}
