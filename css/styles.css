@@ -20,12 +20,10 @@ letter-spacing: 0.03em;}
 .header-nav{font-size: 16px;
 font-style: normal;
 color: var(--text-color);}
-.header-nav:hover,
-:focus { 
+.header-nav:hover { 
 color:var(--hover-focus-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;}
-.header-item:hover,
-:focus{
+.header-item:hover{
 color: var(--hover-focus-color);}
 .header-navigation {font-family: inherit,'sans-serif';color: #434455;}
 .header-list{list-style-type: none}
