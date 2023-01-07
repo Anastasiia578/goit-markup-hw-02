@@ -52,7 +52,7 @@ color:var(--footer-text-color); line-height: 1.16;}
 .footer-sub{font-family: inherit,'sans-serif';
 font-size: 16px;
 line-height: 1.5; color: #E7E9FC;}
-.portfolio-btn{cursor: pointer;
+.portfolio-btn{cursor: pointer;padding: 12px 24px;
 font-family:inherit; font-weight: 500;
 font-size: 16px;
 line-height:1.5;
