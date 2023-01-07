@@ -22,10 +22,10 @@ font-style: normal;
 color: var(--text-color);}
 .header-nav:hover,
 :focus { 
-color:var(--hover-focus-color);}
+color:var(--hover-focus-color);background-color: var(--background-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;}
 .header-item:hover,:focus{
-color: var(--hover-focus-color);}
+color: var(--hover-focus-color);background-color: var(--background-color);}
 .header-navigation {font-family: inherit,'sans-serif';color: #434455;}
 .header-list{list-style-type: none}
 .title{background-color: #2E2F42;}
