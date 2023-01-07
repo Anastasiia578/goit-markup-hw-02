@@ -22,10 +22,10 @@ letter-spacing: 0.03em; }
 .header-nav{font-size: 16px;
 font-style: normal;background-color: #FFFFFF;
 color: var(--text-color);}
-.header-nav:focus,:hover { 
+.header-nav:hover,:focus,: { 
 color:var(--hover-focus-color);background-color: var(--background-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;background-color: var(--background-color);}
-.header-item:focus,:hover,{
+.header-item:hover,:focus,{
 color: var(--hover-focus-color);background-color: var(--background-color);}
 .header-navigation {font-family: inherit,'sans-serif';color: #434455;background-color: var(--background-color);}
 .header-list{list-style-type: none}
