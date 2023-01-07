@@ -23,7 +23,7 @@ color: var(--text-color);}
 .header-nav:hover,
 :focus { 
 color:var(--hover-focus-color);background-color: var(--background-color);}
-.header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;}
+.header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;background-color: var(--background-color);}
 .header-item:hover,:focus{
 color: var(--hover-focus-color);background-color: var(--background-color);}
 .header-navigation {font-family: inherit,'sans-serif';color: #434455;}
@@ -40,6 +40,7 @@ color: #FFFFFF;font-size:16px;}
 .btn:active{background-color:var(--btn-active-colore)}
 .list-list{list-style: none;}
 /*sections*/
+.list{text-decoration: none;}
 .visually-hiden{ position: absolute; 
 white-space:nowrap;width: 1px;
 height: 1px; overflow: hidden; border:0;
