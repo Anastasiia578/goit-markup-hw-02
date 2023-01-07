@@ -41,7 +41,7 @@ color: #FFFFFF;font-size:16px;}
 white-space:nowrap;width: 1px;
 height: 1px; overflow: hidden; border:0;
 padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
-.charecter{font-family:inherit;font-weight: 500;
+.charecter{font-family:inherit; font-weight: 500;
 font-size: 20px; line-height: 1.2;color: #2E2F42;}
 p{ font-size: 16px;line-height: 1.5; color: #2E2F42;}
 .hero{font-weight: 700;
