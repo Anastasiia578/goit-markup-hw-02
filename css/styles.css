@@ -8,7 +8,6 @@
 --hover-focus-color:#404BBF;}
 body {font-family: 'Roboto', sans-serif;font-weight:400;line-height: 1.5;background-color: #FFFFFF;}
 a { text-decoration: none;}
-a:active{background-color: var(--background-color);}
 ul{list-style-type: none;}
 .header-logo {font-family: 'Raleway','sans-serif';
 font-weight: 800;font-size:18px;
@@ -16,17 +15,17 @@ text-transform: uppercase;color:
 #2E2F42; line-height: 1.33;
 text-decoration: none;display: flex;
 align-items: center;
-letter-spacing: 0.03em;} 
+letter-spacing: 0.03em; } 
+.header-logo:hover{background-color: #FFFFFF;}
 .log{color:#4D5AE5}
 .header-list{list-style-type: none; background-color: var(--background-color);}
 .header-nav{font-size: 16px;
-font-style: normal;background-color: var(--background-color);
+font-style: normal;background-color: #FFFFFF;
 color: var(--text-color);}
-.header-nav:hover,
-:focus { 
+.header-nav:focus,:hover { 
 color:var(--hover-focus-color);background-color: var(--background-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;background-color: var(--background-color);}
-.header-item:hover,:focus{
+.header-item:focus,:hover,{
 color: var(--hover-focus-color);background-color: var(--background-color);}
 .header-navigation {font-family: inherit,'sans-serif';color: #434455;background-color: var(--background-color);}
 .header-list{list-style-type: none}
