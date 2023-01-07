@@ -8,6 +8,7 @@
 --hover-focus-color:#404BBF;}
 body {font-family: 'Roboto', sans-serif;font-weight:400;line-height: 1.5;background-color: #FFFFFF;}
 a { text-decoration: none;}
+ul{list-style-type: none;}
 .header-logo {font-family: 'Raleway','sans-serif';
 font-weight: 800;font-size:18px;
 text-transform: uppercase;color:
@@ -16,7 +17,7 @@ text-decoration: none;display: flex;
 align-items: center;
 letter-spacing: 0.03em;} 
 .log{color:#4D5AE5}
-.header-list{list-style-type: none; }
+.header-list{list-style-type: none; background-color: var(--background-color);}
 .header-nav{font-size: 16px;
 font-style: normal;
 color: var(--text-color);}
