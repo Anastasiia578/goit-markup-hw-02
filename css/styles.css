@@ -6,9 +6,8 @@
 --btn-color:#E7E9FC;
 --btn-active-colore:#4D5AE5;
 --hover-focus-color:#404BBF;}
-body {font-family: 'Roboto', sans-serif;font-weight:400;}
+body {font-family: 'Roboto', sans-serif;font-weight:400;background-color: #FFFFFF;}
 a { text-decoration: none;}
-li{list-style: none;}
 .header-logo {font-family: 'Raleway','sans-serif';
 font-weight: 800;font-size:18px;
 text-transform: uppercase;color:
@@ -25,11 +24,11 @@ color: var(--text-color);}
 .header-nav:hover,focus { color:var(--hover-focus-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;line-height: 1.5;}
 .header-item:hover{color: var(--hover-focus-color);}
-.header-navigation {font-family: inherit;color: #434455;line-height: 1.5;}
+.header-navigation {font-family: inherit,'sans-serif';color: #434455;line-height: 1.5;}
 .header-list{list-style-type: none}
 .title{background-color: #2E2F42;}
-.title-text{font-family: inherit;font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
-.btn{cursor: pointer;background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;}
+.title-text{font-family: inherit,'sans-serif';font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
+.btn{cursor: pointer;background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;padding: 12px 24px;}
 .btn:hover{background-color: var(--hover-focus-color);}
 .btn:active{background-color:var(--btn-active-colore)}
 .list-list{list-style: none;}
@@ -46,10 +45,11 @@ font-size: 36px;line-height:0.02;}
 .hero-list { background-color: #F4F4FD;}
 .hero-box{background-color:var(--background-color);}
 /*footer*/
-.footer {background: #2E2F42;
-}
-.footer-logo {font-family: 'Ralevay';font-weight: 800;text-transform: uppercase; color:var(--footer-text-color); line-height: 1.16;}
-.footer-sub{font-family: inherit;
+.footer {background: #2E2F42;}
+.footer-logo {font-family: 'Ralevay';font-weight: 800;
+text-transform: uppercase;
+color:var(--footer-text-color); line-height: 1.16;}
+.footer-sub{font-family: inherit,'sans-serif';
 font-size: 16px;
 line-height: 1.5; color: #E7E9FC;}
 .portfolio-btn{cursor: pointer;
