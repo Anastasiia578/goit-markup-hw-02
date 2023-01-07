@@ -8,6 +8,7 @@
 --hover-focus-color:#404BBF;}
 body {font-family: 'Roboto', sans-serif;font-weight:400;background-color: #FFFFFF;}
 a { text-decoration: none;}
+li{list-style-type: none;}
 .header-logo {font-family: 'Raleway','sans-serif';
 font-weight: 800;font-size:18px;
 text-transform: uppercase;color:
@@ -28,7 +29,11 @@ color: var(--text-color);}
 .header-list{list-style-type: none}
 .title{background-color: #2E2F42;}
 .title-text{font-family: inherit,'sans-serif';font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
-.btn{cursor: pointer;background-color: #4D5AE5; font-family: inherit;font-weight: 500; color: #FFFFFF;font-size:16px;padding: 12px 24px;}
+.btn{cursor: pointer;padding: 16px 32px;
+gap: 10px;
+background-color: #4D5AE5; 
+font-family: inherit;font-weight: 500; 
+color: #FFFFFF;font-size:16px;}
 .btn:hover,:focus{background-color: var(--hover-focus-color);}
 .btn:active{background-color:var(--btn-active-colore)}
 .list-list{list-style: none;}
@@ -37,7 +42,7 @@ color: var(--text-color);}
 white-space:nowrap;width: 1px;
 height: 1px; overflow: hidden; border:0;
 padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
-.class.charecter{font-family:inherit;font-weight: 500;
+.charecter{font-family:inherit;font-weight: 500;
 font-size: 20px; line-height: 1.2;color: #2E2F42;}
 p{ font-size: 16px;line-height: 1.5; color: #2E2F42;}
 .hero{font-weight: 700;
