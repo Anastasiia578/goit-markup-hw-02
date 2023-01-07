@@ -47,7 +47,7 @@ padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
 font-size: 20px; line-height: 1.2;color: #2E2F42;}
 p{ font-size: 16px; color: #2E2F42;}
 .hero{font-weight: 700;
-font-size: 36px;line-height:0.02;}
+font-size: 36px;line-height:0.02; background-color: #F4F4FD;}
 .hero-list { background-color: #F4F4FD;}
 .hero-box{background-color:var(--background-color);}
 /*footer*/
