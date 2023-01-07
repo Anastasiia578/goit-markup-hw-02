@@ -15,7 +15,7 @@ text-transform: uppercase;color:
 #2E2F42; line-height: 1.33;
 text-decoration: none;display: flex;
 align-items: center;
-letter-spacing: 0.03em;} 
+letter-spacing: 0.03em;background-color: var(--background-color);} 
 .log{color:#4D5AE5}
 .header-list{list-style-type: none; background-color: var(--background-color);}
 .header-nav{font-size: 16px;
