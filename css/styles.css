@@ -27,7 +27,8 @@ color: var(--text-color);}
 .header-navigation {font-family: inherit,'sans-serif';color: #434455;}
 .header-list{list-style-type: none}
 .title{background-color: #2E2F42;}
-.title-text{font-family: inherit,'sans-serif';font-size: 56px;font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
+.title-text{font-family: inherit,'sans-serif';font-size: 56px;
+font-weight: 700;line-height: 1.07;color: #FFFFFF; font-style:Bold;}
 .btn{cursor: pointer;padding: 16px 32px;
 gap: 10px;
 background-color: #4D5AE5; 
@@ -50,7 +51,7 @@ font-size: 36px;line-height:0.02;}
 .hero-box{background-color:var(--background-color);}
 /*footer*/
 .footer {background: #2E2F42;}
-.footer-logo {font-family: 'Ralevay';font-weight: 800;
+.footer-logo {font-family: 'Raleway', 'san-serif';font-weight: 800;
 text-transform: uppercase;
 color:var(--footer-text-color); line-height: 1.16;}
 .footer-sub{font-family: inherit,'sans-serif';
