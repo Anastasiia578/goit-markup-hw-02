@@ -1,4 +1,4 @@
-body {font-family: 'Roboto', sans-serif;font-weight: ;}
+
 :root{--background-color: #FFFFFF;
 --text-item-color:#2E2F42;
 --text-color:#434455;
@@ -6,17 +6,17 @@ body {font-family: 'Roboto', sans-serif;font-weight: ;}
 --btn-color:#E7E9FC;
 --btn-active-colore:#4D5AE5;
 --hover-focus-color:#404BBF;}
+body {font-family: 'Roboto', sans-serif;font-weight:400;}
 a { text-decoration: none;}
-.header-logo {font-family: 'Ralevay';width: 71px;
-height: 24px;font-weight: 800;font-size:18px;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;display: flex;
+.header-logo {font-family: 'Raleway','sans-serif';
+font-weight: 800;font-size:18px;text-transform: uppercase;color: #2E2F42; line-height: 1.33;text-decoration: none;display: flex;
 align-items: center;
 letter-spacing: 0.03em;} 
 .header-logo:hover{ text-decoration:underline; text-decoration-color: #4D5AE5;}
 .header-list{list-style-type: none; }
 .header-nav{font-size: 16px; line-height:1.5; font-style: normal;
 color: var(--text-color);}
-.header-nav:hover{ color:var(--hover-focus-color);}
-.header-nav:focus{color: var(--hover-focus-color);}
+.header-nav:hover,focus { color:var(--hover-focus-color);}
 .header-item {font-family:inherit;font-weight: 500 ;color:var(--text-item-color);text-decoration: none;line-height: 1.5;}
 .header-item:hover{color: var(--hover-focus-color);}
 .header-navigation {font-family: inherit;color: #434455;line-height: 1.5;}
@@ -28,7 +28,7 @@ color: var(--text-color);}
 .btn:active{background-color:var(--btn-active-colore)}
 /*sections*/
 .visually-hiden{ position: absolute; white-space:nowrap;width: 1px; height: 1px; overflow: hidden; border:0; padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);margin: -1px;}
-.list{ list-style-type: none}
+.list-{ list-style-type: none}
 .class.charecter{font-weight: 500;font-size: 20px; line-height: 1.2;color: #2E2F42;}
 p{ font-size: 16px;line-height: 1.5; color: #2E2F42;}
 .hero{font-weight: 700;font-weight: 700;
