@@ -15,6 +15,7 @@ text-transform: uppercase;color:
 text-decoration: none;display: flex;
 align-items: center;
 letter-spacing: 0.03em;} 
+.log{color:#4D5AE5}
 .header-logo:hover{ text-decoration:underline; 
 text-decoration-color: #4D5AE5;}
 .header-list{list-style-type: none; }
@@ -51,7 +52,7 @@ font-size: 36px;line-height:0.02;}
 .hero-box{background-color:var(--background-color);}
 /*footer*/
 .footer {background: #2E2F42;}
-.footer-logo {font-family: 'Raleway', 'san-serif';font-weight: 800;
+.footer-logo {font-family:'Raleway', 'san-serif';font-weight: 800;
 text-transform: uppercase;
 color:var(--footer-text-color); line-height: 1.16;}
 .footer-sub{font-family: inherit,'sans-serif';
