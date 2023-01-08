@@ -38,20 +38,29 @@ background-color: #4D5AE5;
 font-family: inherit;font-weight: 500; 
 color: #FFFFFF;font-size:16px;
 }
+
 .visually-hiden {position: absolute; 
 white-space:nowrap;width: 1px;
 height: 1px; overflow: hidden; border:0;
 padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);
 margin: -1px;}
-
+/*portfolio*/
+.portfolio-btn{cursor: pointer;padding: 12px 24px;
+font-family:inherit; font-weight: 500;
+font-size: 16px;
+color:#4D5AE5; background-color:var(--btn-color);}
+.portfolio-btn:hover{ background-color: var(--btn-active-colore);
+color:#FFFFFF;}
+/*end portfolio*/
 .charecter {font-weight: 500;
 font-size: 20px; line-height:1.2;
 }
-.hero {;font-weight: 700;
+.hero{;font-weight: 700;
 font-size: 36px; line-height: 1.1;
 }
 .hero-box {background-color: #F4F4FD;
 }
+/*footer*/
 .footer {background-color:#2E2F42;
 }
 .footer-logo {font-family: 'Raleway','sans-serif';
