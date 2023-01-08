@@ -7,7 +7,7 @@
 --hover-focus-color:#404BBF;}
 body {font-family: 'Roboto', sans-serif;font-weight:400;line-height: 1.5;background-color: #FFFFFF;color: #2E2F42;}
 ul{list-style-type: none;}
-a{text-decoration: none;}
+a{text-decoration: none;color: #2E2F42;}
 p{font-family: inherit,'san-serif';font-size:16px;color:var(--text-color);letter-spacing: 0.02em;}
 /*header*/
 .header-logo {font-family: 'Raleway','san-serif';font-weight: 800;
@@ -20,9 +20,8 @@ text-transform: uppercase; color: #2E2F42;
 .header-list {font-family: inherit,'san-serif';font-weight: 500;
 font-size: 16px;
 }
-.header-item {
-}
-.header-navigation {
+.header-list:focus,:hover{color: var(--hover-focus-color);}
+.header-navigation {font-style: normal;font-size: 16px;
 }
 .header-nav {
 }
