@@ -20,11 +20,10 @@ text-transform: uppercase; color: #2E2F42;
 .header-list {font-family: inherit,'san-serif';font-weight: 500;
 font-size: 16px;
 }
-.header-list:focus,:hover{color: var(--hover-focus-color);}
-.header-navigation {font-style: normal;font-size: 16px;
+.menu:hover,:focus{color:var(--hover-focus-color)}
+.header-nav {font-style:normal;
 }
-.header-nav {
-}
+.contact:hover,:focus{color: var(--hover-focus-color);}
 /*main*/
 .title {
 }
