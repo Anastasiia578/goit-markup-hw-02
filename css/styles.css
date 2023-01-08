@@ -26,27 +26,38 @@ font-size: 16px;
 .contact:hover,:focus{color: var(--hover-focus-color);}
 /*main*/
 .title {
+background-color:#2E2F42 ;
 }
-.title-text {
+.title-text {font-weight: 700;
+font-size: 56px; line-height:1.07;
+color: #FFFFFF;
 }
-.btn {
+.btn {cursor: pointer;padding: 16px 32px;
+gap: 10px;
+background-color: #4D5AE5; 
+font-family: inherit;font-weight: 500; 
+color: #FFFFFF;font-size:16px;
 }
 .visually-hiden {position: absolute; 
 white-space:nowrap;width: 1px;
 height: 1px; overflow: hidden; border:0;
 padding: 0; clip:rect(0 0 0 0); clip-path: inset(50%);
 margin: -1px;}
-.charecter {
+
+.charecter {font-weight: 500;
+font-size: 20px; line-height:1.2;
 }
-.hero {
+.hero {;font-weight: 700;
+font-size: 36px; line-height: 1.1;
 }
-.ourteam {
+.hero-box {background-color: #F4F4FD;
 }
-.hero-box {
+.footer {background-color:#2E2F42;
 }
-.footer {
+.footer-logo {font-family: 'Raleway','sans-serif';
+font-weight: 800;font-size:18px;
+text-transform: uppercase;
+color:var(--footer-text-color); line-height: 1.16;
 }
-.footer-logo {
-}
-.footer-sub {
+.footer-sub {color: var(--footer-text-color);
 }
