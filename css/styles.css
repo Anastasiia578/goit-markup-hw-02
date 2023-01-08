@@ -1,22 +1,24 @@
 
 :root{--background-color: #FFFFFF;
---text-item-color:#2E2F42;
 --text-color:#434455;
 --footer-text-color:#E7E9FC;
 --btn-color:#E7E9FC;
 --btn-active-colore:#4D5AE5;
 --hover-focus-color:#404BBF;}
-body {font-family: 'Roboto', sans-serif;font-weight:400;line-height: 1.5;background-color: #FFFFFF;}
-a{ text-decoration: none;}
+body {font-family: 'Roboto', sans-serif;font-weight:400;line-height: 1.5;background-color: #FFFFFF;color: #2E2F42;}
+a{text-decoration: none;}
 ul{list-style-type: none;}
+p{font-family: inherit,'san-serif';font-size:16px;color:var(--text-color);letter-spacing: 0.02em;}
 /*header*/
-.header {
+.header-logo {font-family: 'Raleway','san-serif';font-weight: 800;
+font-size:18; line-height:1.33;align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase; color: #2E2F42;
 }
-.header-logo {
+.log {color:#4D5AE5;;
 }
-.log {
-}
-.header-list {
+.header-list {font-family: inherit,'san-serif';font-weight: 500;
+font-size: 16px;
 }
 .header-item {
 }
