@@ -6,8 +6,8 @@
 --btn-active-colore:#4D5AE5;
 --hover-focus-color:#404BBF;}
 body {font-family: 'Roboto', sans-serif;font-weight:400;line-height: 1.5;background-color: #FFFFFF;color: #2E2F42;}
-a{text-decoration: none;}
 ul{list-style-type: none;}
+a{text-decoration: none;}
 p{font-family: inherit,'san-serif';font-size:16px;color:var(--text-color);letter-spacing: 0.02em;}
 /*header*/
 .header-logo {font-family: 'Raleway','san-serif';font-weight: 800;
