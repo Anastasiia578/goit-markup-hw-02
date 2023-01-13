@@ -46,7 +46,7 @@ font-weight: 500;
 font-size: 16px;
 }
 .menu:hover,
-:focus {
+.menu:focus {
 color: var(--hover-focus-color);
 }
 .header-nav {
@@ -82,7 +82,7 @@ background-color: var(--hover-focus-color);
 .visually-hiden {
 position: absolute;
 white-space: nowrap;
- width: 1px;
+width: 1px;
 height: 1px;
 overflow: hidden;
 border: 0;
