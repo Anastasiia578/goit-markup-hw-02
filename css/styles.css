@@ -21,14 +21,14 @@ text-decoration: none;
 color: #2e2f42;
 }
 p {
-font-family: inherit, "san-serif";
+font-family: inherit, "sans-serif";
 font-size: 16px;
 color: var(--text-color);
 letter-spacing: 0.02em;
 }
 /*header*/
 .header-logo {
-font-family: "Raleway", "san-serif";
+font-family: "Raleway", "sans-serif";
 font-weight: 800;
 font-size: 18;
 line-height: 1.33;
@@ -41,7 +41,7 @@ color: #2e2f42;
 color: #4d5ae5;
 }
 .header-list {
-font-family: inherit, "san-serif";
+font-family: inherit, "sans-serif";
 font-weight: 500;
 font-size: 16px;
 }
@@ -53,7 +53,7 @@ color: var(--hover-focus-color);
 font-style: normal;
 }
 .contact:hover,
-:focus {
+.contact:focus {
 color: var(--hover-focus-color);
 }
 /*main*/
